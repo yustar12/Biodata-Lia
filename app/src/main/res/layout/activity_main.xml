@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lia"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM : A11.2016.09518"
+                android:textAlignment="center"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+                android:textColor="#141f1f"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama : Lia Khairun Nisa"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#141f1f"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hobi : Membaca"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#141f1f"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saya adalah anak ketiga dari 3 bersaudara. Lahir pada tanggal 7 September 1998. Sekarang Saya sedang menempuh pendidikan di Universitas Dian Nuswantoro jurusan Teknik Informatika."
+                android:textAlignment="center"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+                android:textColor="#141f1f"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Alamat"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="#141f1f"
+                android:onClick="openAlamat"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="telepon"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="#141f1f"
+                android:onClick="openTelpon"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="email"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="#141f1f"
+                android:onClick="openEmail"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
